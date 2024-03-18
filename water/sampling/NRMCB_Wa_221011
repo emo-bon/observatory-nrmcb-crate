@@ -1,0 +1,122 @@
+
+@base <http://data.emobon.embrc.eu/emobon/sampling/NRMCB/water/NRMCB_Wa_221011> . <> 
+    a sosa:Sampling, prov:Activity ;  
+    
+    dct:type "sampling"^^xsd:string ; 
+    prov:startedAtTime '2022-10-11'^^xsd:string ; 
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name 'Raffaella Casotti'^^xsd:string ;
+        schema:identifier 'https://orcid.org/0000-0002-9876-4601'^^xsd:anyURI ;
+    ] ;
+    
+    sosa:resultTime '2022-10-11'^^xsd:string ; 
+    sosa:madeBySampler 'Net'^^xsd:string ;
+    sosa:usedProcedure [
+        a sosa:Procedure ; 
+        rdfs:label 'Wa SOP3'^^xsd:string ;
+        rdfs:comment 'NA'^^xsd:string ; 
+        ] ;  
+    emobon:tidalStage 'no_tide'^^xsd:string ;
+    emobon:samplingDepth '70'^^xsd:string ; 
+    emobon:waterColumnDepth '75'^^xsd:string ; 
+    emobon:originCountry 'Italy'^^xsd:string ; 
+    
+    sosa:hasFeatureOfInterest 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string, 'surface water [ENVO:00002042]'^^xsd:string;
+    sosa:hasFeatureOfInterest 'metagenome'^^xsd:string ;
+    sosa:hasFeatureOfInterest 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644'^^xsd:anyURI ; 
+    
+    sosa:hasResult </emobon/sample/NRMCB/water/NRMCB_Wa_221011> ;
+.
+</emobon/sample/NRMCB/water/NRMCB_Wa_221011>
+    a sosa:Sample, prov:Entity ;
+    
+    sosa:isSampleOf 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string, 'surface water [ENVO:00002042]'^^xsd:string;
+    sosa:isSampleOf 'metagenome'^^xsd:string ;
+    sosa:isSampleOf 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644'^^xsd:anyURI ; 
+    
+    sosa:hasResult </emobon/sample/NRMCB/water/EMOBON_NRMCB_Wa_221011_200um_blank> ;
+.
+</emobon/sample/NRMCB/water/EMOBON_NRMCB_Wa_221011_200um_blank>
+    a sosa:Sample, prov:Entity ;
+    
+    rdfs:label 'EMOBON_NRMCBWa2_20221011_200um_(blank)'^^xsd:string ; 
+    dct:description 'EMOBON metagenome water sample from station NRMCB collected on 2022-10-11 size fraction >200um'^^xsd:string ;
+    emobon:enaSampleAccNum 'NA'^^xsd:anyURI ;
+    emobon:sampleReplicate 'blank'^^xsd:string ;
+    emobon:sampleDepth '70'^^xsd:string ;
+    emobon:hasSampleSize 'NA'^^xsd:string ; 
+    emobon:filterSizeRange '>200'^^xsd:string ;
+    emobon:upperFilterSize '200'^^xsd:string ; 
+    emobon:lowerFilterSize 'NA'^^xsd:string ; 
+    emobon:filtrationTime '3'^^xsd:string ;
+    
+    sosa:isSampleOf 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string, 'surface water [ENVO:00002042]'^^xsd:string;
+    sosa:isSampleOf 'metagenome'^^xsd:string ;
+    sosa:isSampleOf 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644'^^xsd:anyURI ; 
+
+    
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name 'Raffaella Casotti'^^xsd:string ;
+        schema:identifier 'https://orcid.org/0000-0002-9876-4601'^^xsd:anyURI ;
+    ] , [
+        a prov:Person, schema:Person ;
+        schema:name 'Casotti'^^xsd:string ;
+        schema:identifier 'https://orcid.org/0000-0002-9876-4801'^^xsd:anyURI ;
+    ] , [
+        a prov:Person, schema:Person ;
+        schema:name 'Anna Chiara Trano'^^xsd:string ;
+        schema:identifier 'NA'^^xsd:anyURI ;
+    ] ; 
+    prov:wasGeneratedBy [
+        a prov:Activity ;
+        dct:type "storage"^^xsd:string ; 
+        dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ; 
+        prov:startedAtTime 'NA'^^xsd:string ; 
+        
+        prov:wasInformedBy [
+            
+            a prov:Activity ;
+            dct:type "transport"^^xsd:string ; 
+            dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ; 
+            prov:startedAtTime 'NA'^^xsd:string ;
+            prov:endedAtTime 'NA'^^xsd:string ;
+            
+            prov:wasInformedBy [
+                
+                a prov:Activity ;
+                dct:type "storage"^^xsd:string ; 
+                dct:description "Storage of sample at HMBRC HQ"^^xsd:string ; 
+                prov:startedAtTime 'NA'^^xsd:string ;
+                emobon:storageTemp 'NA'^^xsd:string ; 
+
+                prov:wasInformedBy [
+                    
+                    a prov:Activity ;
+                    dct:type "transport"^^xsd:string ; 
+                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ; 
+                    prov:startedAtTime 'NA'^^xsd:string ;
+                    prov:endedAtTime 'NA'^^xsd:string ; 
+                    
+                    prov:wasInformedBy [
+                        a prov:Activity ;
+                        dct:type "storage"^^xsd:string ; 
+                        dct:description "Local storage of the collected sample"^^xsd:string ; 
+                        prov:startedAtTime '2022-10-11'^^xsd:string ;
+                        prov:wasAssociatedWith [
+                            prov:Person, schema:Person ;
+                            schema:name 'Casotti'^^xsd:string ;
+                        schema:identifier 'https://orcid.org/0000-0002-9876-4801'^^xsd:anyURI ;
+                        ] ;
+                        emobon:storageTemp '-80'^^xsd:string ; 
+                        emobon:storageLoc 'Casotti minus80'^^xsd:string ; 
+
+                        prov:wasInformedBy <> ; 
+                    ] ; 
+                ] ; 
+            ] ; 
+        ] ; 
+    ] ;
+.
+
