@@ -6474,7 +6474,6 @@ datatype mismatch,ws,membr_cut,319,N,false,,/github/workspace/logsheets/filtered
 datatype mismatch,ws,membr_cut,320,N,false,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,membr_cut,321,N,false,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,membr_cut,322,N,false,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDBoolean,False
-missing value,ws,samp_size_vol,42,,,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDFloat,False
 datatype mismatch,ws,ship_date,1,2021-10-18 00:00:00,2021-10-18,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date,2,2021-10-18 00:00:00,2021-10-18,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date,5,2021-10-18 00:00:00,2021-10-18,,/github/workspace/logsheets/filtered/water_sampling.csv,XSDDate,False
