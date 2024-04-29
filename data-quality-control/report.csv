@@ -1,4 +1,9 @@
 Diagnosis,LogsheetType,LogsheetTab,Column,Row,Value,ExtendedDiagnosis,FilePath,DataType,Requirement
+orcid error,sediment,sampling,store_person,71,Raffaella Casotti,orcid 0000-0001-8054-4304 corresponds to person name Carmen Minucci,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,72,Raffaella Casotti,orcid 0000-0001-8054-4304 corresponds to person name Carmen Minucci,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,73,Raffaella Casotti,orcid 0000-0001-8054-4304 corresponds to person name Carmen Minucci,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,74,Raffaella Casotti,orcid 0000-0001-8054-4304 corresponds to person name Carmen Minucci,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
+orcid error,sediment,sampling,store_person,75,Raffaella Casotti,orcid 0000-0001-8054-4304 corresponds to person name Carmen Minucci,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 datatype mismatch,sediment,measured,pigments,1,"0,5523",\,/github/workspace/logsheets/filtered/sediment_measured.csv,EMOBONList,optional
 datatype mismatch,sediment,measured,pigments,2,"0,5523",\,/github/workspace/logsheets/filtered/sediment_measured.csv,EMOBONList,optional
 datatype mismatch,sediment,measured,pigments,3,"0,5523",\,/github/workspace/logsheets/filtered/sediment_measured.csv,EMOBONList,optional
@@ -292,6 +297,17 @@ datatype mismatch,water,measured,nitrate,318,expected 06-2024,\,/github/workspac
 datatype mismatch,water,measured,nitrate,319,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
 datatype mismatch,water,measured,nitrate,320,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
 datatype mismatch,water,measured,nitrate,321,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+datatype mismatch,water,measured,nitrite,308,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+datatype mismatch,water,measured,nitrite,309,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+datatype mismatch,water,measured,nitrite,311,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+datatype mismatch,water,measured,nitrite,313,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+datatype mismatch,water,measured,nitrite,314,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+datatype mismatch,water,measured,nitrite,315,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+datatype mismatch,water,measured,nitrite,316,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+datatype mismatch,water,measured,nitrite,318,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+datatype mismatch,water,measured,nitrite,319,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+datatype mismatch,water,measured,nitrite,320,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
+datatype mismatch,water,measured,nitrite,321,expected 06-2024,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,optional
 datatype mismatch,water,measured,organism_count,1,"phytoplankton: 7,22E+06; diatoms: 3,72E+06; dinoflagellates: 2,33E+05; coccolitrophores: 0,00E+00; other flagellates: 3,27E+06",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
 datatype mismatch,water,measured,organism_count,2,"phytoplankton: 7,22E+06; diatoms: 3,72E+06; dinoflagellates: 2,33E+05; coccolitrophores: 0,00E+00; other flagellates: 3,27E+06",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
 datatype mismatch,water,measured,organism_count,3,"phytoplankton: 7,22E+06; diatoms: 3,72E+06; dinoflagellates: 2,33E+05; coccolitrophores: 0,00E+00; other flagellates: 3,27E+06",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
@@ -1312,6 +1328,21 @@ datatype mismatch,water,measured,pigments,298,"0,4927",\,/github/workspace/logsh
 datatype mismatch,water,measured,pigments,299,"0,4927",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
 datatype mismatch,water,measured,pigments,300,"0,4927",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
 datatype mismatch,water,measured,pigments,301,"0,4927",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,303,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,304,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,305,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,306,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,308,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,309,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,311,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,313,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,314,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,315,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,316,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,318,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,319,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,320,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
+datatype mismatch,water,measured,pigments,321,"6,3941",\,/github/workspace/logsheets/filtered/water_measured.csv,EMOBONList,optional
 missing value,water,measured,sea_subsurf_salinity,267,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
 missing value,water,measured,sea_subsurf_salinity,272,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
 missing value,water,measured,sea_subsurf_salinity,277,<empty>,\,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,mandatory
