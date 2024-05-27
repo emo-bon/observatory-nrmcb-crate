@@ -1,9 +1,4 @@
 Diagnosis,LogsheetType,LogsheetTab,Column,Row,Value,ExtendedDiagnosis,FilePath,DataType,Requirement
-orcid error,sediment,sampling,store_person,71,Raffaella Casotti,orcid 0000-0001-8054-4304 corresponds to person name Carmen Minucci,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
-orcid error,sediment,sampling,store_person,72,Raffaella Casotti,orcid 0000-0001-8054-4304 corresponds to person name Carmen Minucci,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
-orcid error,sediment,sampling,store_person,73,Raffaella Casotti,orcid 0000-0001-8054-4304 corresponds to person name Carmen Minucci,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
-orcid error,sediment,sampling,store_person,74,Raffaella Casotti,orcid 0000-0001-8054-4304 corresponds to person name Carmen Minucci,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
-orcid error,sediment,sampling,store_person,75,Raffaella Casotti,orcid 0000-0001-8054-4304 corresponds to person name Carmen Minucci,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 datatype mismatch,sediment,measured,pigments,1,"0,5523",\,/github/workspace/logsheets/filtered/sediment_measured.csv,EMOBONList,optional
 datatype mismatch,sediment,measured,pigments,2,"0,5523",\,/github/workspace/logsheets/filtered/sediment_measured.csv,EMOBONList,optional
 datatype mismatch,sediment,measured,pigments,3,"0,5523",\,/github/workspace/logsheets/filtered/sediment_measured.csv,EMOBONList,optional
