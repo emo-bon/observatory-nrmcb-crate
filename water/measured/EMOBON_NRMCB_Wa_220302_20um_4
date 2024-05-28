@@ -112,10 +112,10 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue 'phytoplankton: 1,62E+06; diatoms: 7,88E+05; dinoflagellates: 8,70E+04; coccolitrophores: 3,43E+04; other flagellates: 7,09E+05'^^xsd:string ; 
+        qudt:numericValue 'phytoplankton: 1.62E+06; diatoms: 7.88E+05; dinoflagellates: 8.70E+04; coccolitrophores: 3.43E+04; other flagellates: 7.09E+05'^^xsd:string ; 
         qudt:unit <will need to define ourselves> ; 
     ] ;
-    schema:measurementTechnique 'phytoplankton, diatoms, dinoflagellates, coccolithophores, other flagellates: Utermöhl (Phytoplankton) Sedimentation Chamber'^^xsd:string ;
+    schema:measurementTechnique 'phytoplankton; diatoms; dinoflagellates; coccolithophores; other flagellates: Utermöhl (Phytoplankton) Sedimentation Chamber'^^xsd:string ;
     sosa:hasFeatureOfInterest <> ; 
 .
 
