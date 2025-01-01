@@ -1,1 +1,2 @@
-WARNING:py_data_rules.rule_factory:excess columns in table sm: {'Unnamed: 69'}
+WARNING:py_data_rules.rule_factory:missing columns in table ws: {'samp_description'}
+WARNING:py_data_rules.rule_factory:excess columns in table ws: {'EMOBON metagenome water sample from station NRMCB collected on 2021-06-21 size fraction 3-200um'}
