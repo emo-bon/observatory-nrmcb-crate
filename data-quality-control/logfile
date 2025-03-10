@@ -1,2 +1,5 @@
-WARNING:py_data_rules.rule_factory:missing columns in table ws: {'samp_description'}
-WARNING:py_data_rules.rule_factory:excess columns in table ws: {'EMOBON metagenome water sample from station NRMCB collected on 2021-06-21 size fraction 3-200um'}
+WARNING:py_data_rules.rule_factory:excess columns in table so: {'data_contact_email', 'data_owner', 'data_owner_edmoid'}
+WARNING:py_data_rules.rule_factory:excess columns in table ss: {'seq_batch'}
+WARNING:py_data_rules.rule_factory:excess columns in table wm: {'source_mat_id_orig'}
+WARNING:py_data_rules.rule_factory:excess columns in table wo: {'data_contact_email', 'data_owner', 'data_owner_edmoid'}
+WARNING:py_data_rules.rule_factory:excess columns in table ws: {'seq_batch'}
