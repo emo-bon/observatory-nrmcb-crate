@@ -123,8 +123,7 @@
             ],
             "license": "https://creativecommons.org/licenses/by/4.0/",
             "publisher": "https://www.embrc.eu/emo-bon",
-            "title": "observatory-nrmcb-crate",
-            "version": "<version>"
+            "title": "observatory-nrmcb-crate"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -134,14 +133,12 @@
             },
             "conformsTo": {
                 "@id": "https://w3id.org/ro/crate/1.1"
-            },
-            "version": "<version>"
+            }
         },
         {
-            "@id": "https://data.emobon.embrc.eu/observatory-profile/0.23",
+            "@id": "https://data.emobon.embrc.eu/observatory-profile/latest",
             "@type": "CreativeWork",
-            "name": "<name>",
-            "version": "<version>"
+            "name": "<name>"
         },
         {
             "@id": ".gitignore",
