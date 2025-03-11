@@ -11,7 +11,7 @@
             "@type": "Dataset",
             "accessURL": "https://raw.githubusercontent.com/emo-bon/observatory-nrmcb-crate/main/ro-crate-metadata.json",
             "conformsTo": {
-                "@id": "https://data.emobon.embrc.eu/observatory-profile/0.23"
+                "@id": "https://data.emobon.embrc.eu/observatory-profile/latest"
             },
             "contactPoint": {
                 "@type": "ContactPoint",
