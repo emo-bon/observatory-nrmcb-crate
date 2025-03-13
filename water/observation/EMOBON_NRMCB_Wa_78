@@ -205,7 +205,7 @@
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_78> ; 
 .
 
-<#other flagellates>
+<#other_flagellates>
     a sosa:Observation, schema:Observation ; 
     
     sosa:observedProperty [
