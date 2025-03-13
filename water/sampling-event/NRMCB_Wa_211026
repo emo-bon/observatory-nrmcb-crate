@@ -1,0 +1,55 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> . 
+@prefix prov: <http://www.w3.org/ns/prov#> . 
+@prefix sosa: <http://www.w3.org/ns/sosa/> . 
+@prefix ssn: <http://www.w3.org/ns/ssn/> . 
+@prefix qudt: <http://qudt.org/schema/qudt/> . 
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mr: <http://marineregions.org/ns/ontology#> .
+@prefix emobon-sequence: <https://data.emobon.embrc.eu/ns/sequence#> .
+@prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
+@prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
+@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/sampling-event/NRMCB_Wa_211026> . <>
+    a sosa:Sampling, prov:Activity ;  
+    
+    dct:type "sampling"^^xsd:string ;
+    prov:startedAtTime '2021-10-26'^^xsd:date ; 
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name 'Raffaella Casotti'^^xsd:string ;
+        schema:identifier 'https://orcid.org/0000-0002-9876-4601'^^xsd:anyURI ;
+    ] ;
+    
+    sosa:resultTime '2021-10-26'^^xsd:date ;     
+    sosa:madeBySampler 'Niskin'^^xsd:string ;
+    sosa:usedProcedure [
+        a sosa:Procedure ;
+        rdfs:label 'Wa SOP1'^^xsd:string ;
+        rdfs:seeAlso "http://dx.doi.org/10.25607/OBP-1653"^^xsd:anyURI ;
+        ] ;
+    emobon-sampling:tidalStage 'no_tide'^^xsd:string ; 
+    emobon-sampling:minSamplingDepth [
+        a qudt:QuantityValue ;
+        qudt:numericValue '0.0'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ; 
+        ] ; 
+    emobon-sampling:maxSamplingDepth [
+        a qudt:QuantityValue ;
+        qudt:numericValue '0.0'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/ULAA/> ; 
+        ] ;
+    
+    emobon-core:waterColumnDepth '75'^^xsd:string ; 
+    emobon-core:originCountry 'Italy'^^xsd:string ;
+    
+    emobon-sampling:environmentMaterial 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string, 'surface water [ENVO:00002042]'^^xsd:string;
+    emobon-sampling:investigationType 'metagenome'^^xsd:string ;
+    emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=1874687'^^xsd:anyURI ; 
+    emobon-sampling:bioCommunity ''^^xsd:string ;
+    
+    emobon-sampling:linkedToObservatory </observatory-nrmcb-crate/water/observatory/NRMCB>  ; 
+.
