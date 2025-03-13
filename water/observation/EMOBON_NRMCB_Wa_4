@@ -142,6 +142,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ; 
+        
         qudt:numericValue '7220000.0'^^xsd:double ;
         qudt:unit <will_need_to_define_ourselves> ;
     ] ;
@@ -161,6 +162,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ; 
+        
         qudt:numericValue '3720000.0'^^xsd:double ;
         qudt:unit <will_need_to_define_ourselves> ;
     ] ;
@@ -180,6 +182,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ; 
+        
         qudt:numericValue '233000.0'^^xsd:double ;
         qudt:unit <will_need_to_define_ourselves> ;
     ] ;
@@ -199,6 +202,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ; 
+        
         qudt:numericValue '0.0'^^xsd:double ;
         qudt:unit <will_need_to_define_ourselves> ;
     ] ;
@@ -218,6 +222,7 @@
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ; 
+        
         qudt:numericValue '3270000.0'^^xsd:double ;
         qudt:unit <will_need_to_define_ourselves> ;
     ] ;

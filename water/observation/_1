@@ -17,3 +17,295 @@
 
 
 @base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/observation/> . 
+<#ammonium>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P35/current/EPC00009/> ;
+        rdfs:label 'ammonium'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
+    ] ;
+    schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#chlorophyll>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ;
+        rdfs:label 'chlorophyll'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
+    ] ;
+    schema:measurementTechnique 'spectrofluorometry'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#conduc>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/> ;
+        rdfs:label 'conduc'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '4.692291'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/MSCM/> ; 
+    ] ;
+    schema:measurementTechnique 'CTD SBE911plusV2'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#density>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/SIGT/> ;
+        rdfs:label 'density'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '1028178.0'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> ; 
+    ] ;
+    schema:measurementTechnique 'CTD SBE911plusV2'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#diss_oxygen>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ;
+        rdfs:label 'diss_oxygen'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '225.5761'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
+    ] ;
+    schema:measurementTechnique 'SBE 43'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#nitrate>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/> ;
+        rdfs:label 'nitrate'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
+    ] ;
+    schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#nitrite>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/NTRIZZXX/> ;
+        rdfs:label 'nitrite'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
+    ] ;
+    schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#organism_count>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <https://genomicsstandardsconsortium.github.io/mixs/0000103/> ;
+        rdfs:label 'organism_count'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:unit <will_need_to_define_ourselves> ; 
+    ] ;
+    schema:measurementTechnique 'phytoplankton: Utermöhl (Phytoplankton) Sedimentation Chamber; diatoms: Utermöhl (Phytoplankton) Sedimentation Chamber; dinoflagellates: Utermöhl (Phytoplankton) Sedimentation Chamber; coccolithophores: Utermöhl (Phytoplankton) Sedimentation Chamber; other flagellates: Utermöhl (Phytoplankton) Sedimentation Chamber'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#ph>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ;
+        rdfs:label 'ph'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '8.176'^^xsd:double ; 
+    ] ;
+    schema:measurementTechnique 'SBE18'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#ph>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ;
+        rdfs:label 'ph'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '8.176'^^xsd:double ; 
+    ] ;
+    schema:measurementTechnique 'SBE18'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#phaeopigments>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P09/current/PHTF/> ;
+        rdfs:label 'phaeopigments'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
+    ] ;
+    schema:measurementTechnique 'spectrofluorometry'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#phaeopigments>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P09/current/PHAS/> ;
+        rdfs:label 'phaeopigments'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
+    ] ;
+    schema:measurementTechnique 'spectrofluorometry'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#phosphate>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/PHOS/> ;
+        rdfs:label 'phosphate'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
+    ] ;
+    schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#pigments>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/C67/current/PIGX/> ;
+        rdfs:label 'pigments'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
+    ] ;
+    schema:measurementTechnique 'this is not pigments but fluorescense. chl Turner Design Cyclops 7C)'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#sea_subsurf_salinity>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
+        rdfs:label 'sea_subsurf_salinity'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '38.1331'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
+    ] ;
+    schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#sea_subsurf_temp>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
+        rdfs:label 'sea_subsurf_temp'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '15.7014'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
+    ] ;
+    schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#sea_surf_salinity>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
+        rdfs:label 'sea_surf_salinity'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '38.0504'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
+    ] ;
+    schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#sea_surf_temp>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
+        rdfs:label 'sea_surf_temp'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '15.6491'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
+    ] ;
+    schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
+<#silicate>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty [
+        a sosa:ObservableProperty ; 
+        dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/SLCA/> ;
+        rdfs:label 'silicate'^^xsd:string ; 
+    ] ;
+
+    sosa:hasResult [
+        a sosa:Result , qudt:QuantityValue ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
+    ] ;
+    schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
+.
