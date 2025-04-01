@@ -14,6 +14,7 @@
 @prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#>.
 
 
 @base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/observation/EMOBON_NRMCB_Wa_5> . 

@@ -14,6 +14,7 @@
 @prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#>.
 @base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_22> .
 <> 
     a sosa:Sample, prov:Entity ;
@@ -42,9 +43,10 @@
     ] ;
     emobon-sampling:membrCut 'false'^^xsd:boolean ;
     
-    emobon-sampling:environmentMaterial 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string, 'surface water [ENVO:00002042]'^^xsd:string;
+    emobon-sampling:environmentMaterial 'seawater%20%5BENVO:00002149%5D'^^xsd:anyURI, 'coastal%20sea%20water%20%5BENVO:00002150%5D'^^xsd:anyURI, 'surface%20water%20%5BENVO:00002042%5D'^^xsd:anyURI;
     emobon-sampling:investigationType 'metagenome'^^xsd:string ;
-    emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318'^^xsd:anyURI ; 
+    emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318'^^xsd:anyURI ;
+    emobon-sampling:taxonomicName 'metagenome'^^xsd:string ;
     emobon-sampling:bioCommunity ''^^xsd:string ;
 
     
