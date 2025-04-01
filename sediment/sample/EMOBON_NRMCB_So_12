@@ -14,6 +14,7 @@
 @prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#>.
 
 
 
@@ -39,9 +40,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGRM/> ;
     ] ;
     
-    emobon-sampling:environmentMaterial'sediment [ENVO:00002007]'^^xsd:string;
+    emobon-sampling:environmentMaterial'sediment%20%5BENVO:00002007%5D'^^xsd:anyURI;
     emobon-sampling:investigationType 'metagenome'^^xsd:string ;
-    emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755'^^xsd:anyURI ; 
+    emobon-sampling:taxonomicID 'https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755'^^xsd:anyURI ;
+    emobon-sampling:taxonomicName 'marine sediment metagenome'^^xsd:string ;
     emobon-sampling:bioCommunity 'micro'^^xsd:string ;
 
     

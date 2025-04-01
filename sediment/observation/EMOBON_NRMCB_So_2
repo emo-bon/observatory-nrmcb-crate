@@ -14,11 +14,12 @@
 @prefix emobon-core: <https://data.emobon.embrc.eu/ns/core#> .
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#>.
 
 
 @base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/observation/EMOBON_NRMCB_So_2> . 
 <#diss_oxygen>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ;
@@ -34,7 +35,7 @@
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_2> ; 
 .
 <#pigments>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <http://vocab.nerc.ac.uk/collection/C67/current/PIGX/> ;
@@ -49,10 +50,10 @@
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_2> ; 
 .
 <#sea_surf_salinity>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
-        dct:identifier <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
+        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Sal_Surface> ;
         rdfs:label 'sea_surf_salinity'^^xsd:string ; 
     ] ;
     
@@ -65,10 +66,10 @@
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_2> ; 
 .
 <#sea_surf_temp>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
-        dct:identifier <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
+        dct:identifier <https://data.emobon.embrc.eu/ns/observableproperty_vocab#Temp_Surface> ;
         rdfs:label 'sea_surf_temp'^^xsd:string ; 
     ] ;
     
@@ -81,7 +82,7 @@
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_2> ; 
 .
 <#sediment_temp>
-    a sosa:Observation, schema:Observation ;
+    a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
         dct:identifier <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530> ;
