@@ -61,6 +61,7 @@
         qudt:numericValue '4.896698'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/MSCM/> ; 
     ] ;
+    schema:measurementTechnique 'CTD SBE911plusV2'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
 <#density>
