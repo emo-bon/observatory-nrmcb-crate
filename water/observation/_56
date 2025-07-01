@@ -58,7 +58,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '4.896698'^^xsd:double ;
+        qudt:numericValue '5.512209'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/MSCM/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE911plusV2'^^xsd:string ;
@@ -74,7 +74,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '1026994.8'^^xsd:double ;
+        qudt:numericValue '1025382.0'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE911plusV2'^^xsd:string ;
@@ -90,7 +90,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '276.8398'^^xsd:double ;
+        qudt:numericValue '268.5605'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'SBE 43'^^xsd:string ;
@@ -151,7 +151,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '8.188'^^xsd:double ; 
+        qudt:numericValue '8.29'^^xsd:double ; 
     ] ;
     schema:measurementTechnique 'SBE18'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
@@ -166,7 +166,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '8.188'^^xsd:double ; 
+        qudt:numericValue '8.29'^^xsd:double ; 
     ] ;
     schema:measurementTechnique 'SBE18'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
@@ -241,7 +241,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '37.3711'^^xsd:double ;
+        qudt:numericValue '37.2815'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
@@ -257,7 +257,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '18.194'^^xsd:double ;
+        qudt:numericValue '24.0716'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
@@ -273,7 +273,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '37.3498'^^xsd:double ;
+        qudt:numericValue '37.3145'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
@@ -289,7 +289,7 @@
 
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
-        qudt:numericValue '18.3112'^^xsd:double ;
+        qudt:numericValue '24.0444'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
