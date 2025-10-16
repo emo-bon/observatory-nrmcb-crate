@@ -64,22 +64,30 @@
     ] ;
     schema:measurementTechnique 'Oxyguard probe'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_11> ; 
-.
-<#pigments>
+. 
+
+<#Fluorescence>
     a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_pigments> ;
+    csvw:row <EMOBON_NRMCB_So_11> ;
+    
     sosa:observedProperty [
-        a sosa:ObservableProperty ; 
+        a sosa:ObservableProperty ;
         dct:identifier <http://vocab.nerc.ac.uk/collection/C67/current/PIGX/> ;
-        rdfs:label 'pigments'^^xsd:string ; 
-    ] ;
+        rdfs:label 'pigments'^^xsd:string ;
+        dct:type 'Fluorescence'^^xsd:string ;
+    ] ; 
     
     sosa:hasResult [
         a sosa:Result , qudt:QuantityValue ;
+        qudt:numericValue '0.4421'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ;
     ] ;
     schema:measurementTechnique 'this is not pigments but fluorescense. chl Turner Design Cyclops 7C)'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_11> ; 
 .
+
+
 <#redox_potential>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
