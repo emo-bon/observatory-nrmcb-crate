@@ -21,11 +21,11 @@
 
 
 
-@base http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/sample/<EMOBON_NRMCB_Wa_108> .
+@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_108> .
 <> 
     a sosa:Sample, prov:Entity ;
     
-    sosa:isResultOf /observatory-nrmcb-crate/water/sampling-event/<NRMCB_Wa_220427> ;
+    sosa:isResultOf </observatory-nrmcb-crate/water/sampling-event/NRMCB_Wa_220427> ;
     
     emobon-sampling:origEmobonId 'EMOBON_NRMCBWa_220427_0.22um_1'^^xsd:string ; 
     

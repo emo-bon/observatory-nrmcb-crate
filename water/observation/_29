@@ -23,7 +23,7 @@
 
 
 @base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/observation/> . 
-#<ammonium>
+<#ammonium>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -37,9 +37,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<chlorophyll>
+<#chlorophyll>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -53,9 +53,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
     ] ;
     schema:measurementTechnique 'spectrofluorometry'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<conduc>
+<#conduc>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -69,9 +69,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/MSCM/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE911plusV2'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<density>
+<#density>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -85,9 +85,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE911plusV2'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<diss_oxygen>
+<#diss_oxygen>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -101,9 +101,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'SBE 43'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<nitrate>
+<#nitrate>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -116,9 +116,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<nitrite>
+<#nitrite>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -131,12 +131,12 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 . 
 
-#<phytoplankton>
+<#phytoplankton>
     a sosa:Observation, schema:Observation , csvw:Cell ;
-    csvw:column http://data.emobon.embrc.eu/measured_metadata_schema#col_<organism_count> ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_organism_count> ;
     csvw:row <> ;
     
     sosa:observedProperty [
@@ -153,12 +153,12 @@
         qudt:unit <https://data.emobon.embrc.eu/ns/unit_vocab#Cells_Per_Sampleunit> ;
     ] ;
     schema:measurementTechnique 'phytoplankton: Utermöhl (Phytoplankton) Sedimentation Chamber; diatoms: Utermöhl (Phytoplankton) Sedimentation Chamber; dinoflagellates: Utermöhl (Phytoplankton) Sedimentation Chamber; coccolithophores: Utermöhl (Phytoplankton) Sedimentation Chamber; other flagellates: Utermöhl (Phytoplankton) Sedimentation Chamber'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
 
-#<diatoms>
+<#diatoms>
     a sosa:Observation, schema:Observation , csvw:Cell ;
-    csvw:column http://data.emobon.embrc.eu/measured_metadata_schema#col_<organism_count> ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_organism_count> ;
     csvw:row <> ;
     
     sosa:observedProperty [
@@ -175,12 +175,12 @@
         qudt:unit <https://data.emobon.embrc.eu/ns/unit_vocab#Cells_Per_Sampleunit> ;
     ] ;
     schema:measurementTechnique 'phytoplankton: Utermöhl (Phytoplankton) Sedimentation Chamber; diatoms: Utermöhl (Phytoplankton) Sedimentation Chamber; dinoflagellates: Utermöhl (Phytoplankton) Sedimentation Chamber; coccolithophores: Utermöhl (Phytoplankton) Sedimentation Chamber; other flagellates: Utermöhl (Phytoplankton) Sedimentation Chamber'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
 
-#<dinoflagellates>
+<#dinoflagellates>
     a sosa:Observation, schema:Observation , csvw:Cell ;
-    csvw:column http://data.emobon.embrc.eu/measured_metadata_schema#col_<organism_count> ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_organism_count> ;
     csvw:row <> ;
     
     sosa:observedProperty [
@@ -197,12 +197,12 @@
         qudt:unit <https://data.emobon.embrc.eu/ns/unit_vocab#Cells_Per_Sampleunit> ;
     ] ;
     schema:measurementTechnique 'phytoplankton: Utermöhl (Phytoplankton) Sedimentation Chamber; diatoms: Utermöhl (Phytoplankton) Sedimentation Chamber; dinoflagellates: Utermöhl (Phytoplankton) Sedimentation Chamber; coccolithophores: Utermöhl (Phytoplankton) Sedimentation Chamber; other flagellates: Utermöhl (Phytoplankton) Sedimentation Chamber'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
 
-#<coccolitrophores>
+<#coccolitrophores>
     a sosa:Observation, schema:Observation , csvw:Cell ;
-    csvw:column http://data.emobon.embrc.eu/measured_metadata_schema#col_<organism_count> ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_organism_count> ;
     csvw:row <> ;
     
     sosa:observedProperty [
@@ -219,12 +219,12 @@
         qudt:unit <https://data.emobon.embrc.eu/ns/unit_vocab#Cells_Per_Sampleunit> ;
     ] ;
     schema:measurementTechnique 'phytoplankton: Utermöhl (Phytoplankton) Sedimentation Chamber; diatoms: Utermöhl (Phytoplankton) Sedimentation Chamber; dinoflagellates: Utermöhl (Phytoplankton) Sedimentation Chamber; coccolithophores: Utermöhl (Phytoplankton) Sedimentation Chamber; other flagellates: Utermöhl (Phytoplankton) Sedimentation Chamber'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
 
-#<other_flagellates>
+<#other_flagellates>
     a sosa:Observation, schema:Observation , csvw:Cell ;
-    csvw:column http://data.emobon.embrc.eu/measured_metadata_schema#col_<organism_count> ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_organism_count> ;
     csvw:row <> ;
     
     sosa:observedProperty [
@@ -241,11 +241,11 @@
         qudt:unit <https://data.emobon.embrc.eu/ns/unit_vocab#Cells_Per_Sampleunit> ;
     ] ;
     schema:measurementTechnique 'phytoplankton: Utermöhl (Phytoplankton) Sedimentation Chamber; diatoms: Utermöhl (Phytoplankton) Sedimentation Chamber; dinoflagellates: Utermöhl (Phytoplankton) Sedimentation Chamber; coccolithophores: Utermöhl (Phytoplankton) Sedimentation Chamber; other flagellates: Utermöhl (Phytoplankton) Sedimentation Chamber'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
 
 
-#<ph>
+<#ph>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -258,9 +258,9 @@
         qudt:numericValue '8.188'^^xsd:double ; 
     ] ;
     schema:measurementTechnique 'SBE18'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<ph>
+<#ph>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -273,9 +273,9 @@
         qudt:numericValue '8.188'^^xsd:double ; 
     ] ;
     schema:measurementTechnique 'SBE18'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<phaeopigments>
+<#phaeopigments>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -288,9 +288,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
     ] ;
     schema:measurementTechnique 'spectrofluorometry'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<phaeopigments>
+<#phaeopigments>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -303,9 +303,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
     ] ;
     schema:measurementTechnique 'spectrofluorometry'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<phosphate>
+<#phosphate>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -318,9 +318,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<pigments>
+<#pigments>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -333,9 +333,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
     ] ;
     schema:measurementTechnique 'this is not pigments but fluorescense. chl Turner Design Cyclops 7C)'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<sea_subsurf_salinity>
+<#sea_subsurf_salinity>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -349,9 +349,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<sea_subsurf_temp>
+<#sea_subsurf_temp>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -365,9 +365,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<sea_surf_salinity>
+<#sea_surf_salinity>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -381,9 +381,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<sea_surf_temp>
+<#sea_surf_temp>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -397,9 +397,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
-#<silicate>
+<#silicate>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -412,5 +412,5 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
-    sosa:hasFeatureOfInterest /observatory-nrmcb-crate/water/sample/<> ; 
+    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .

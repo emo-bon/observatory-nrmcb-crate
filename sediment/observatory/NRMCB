@@ -18,7 +18,7 @@
 
 
 
-@base http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/observatory/<nrmcb> . 
+@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/observatory/NRMCB> . 
 
 <> 
     a emobon-core:Observatory ; 
