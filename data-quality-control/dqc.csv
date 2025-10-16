@@ -51,7 +51,6 @@ source_mat_id error,ss,source_mat_id,47,EMOBON_NRMCB_So_47,,source_mat_id should
 source_mat_id error,ss,source_mat_id,48,EMOBON_NRMCB_So_48,,source_mat_id should match ^EMOBON_NRMCB_So_221206_micro_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 source_mat_id error,ss,source_mat_id,49,EMOBON_NRMCB_So_49,,source_mat_id should match ^EMOBON_NRMCB_So_221206_micro_4$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 source_mat_id error,ss,source_mat_id,50,EMOBON_NRMCB_So_50,,source_mat_id should match ^EMOBON_NRMCB_So_221206_micro_blank_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-source_mat_id error,ss,source_mat_id,116,EMOBON_NRMCB_So_116,,source_mat_id should match ^EMOBON_NRMCB_So___$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 source_mat_id error,ws,source_mat_id,1,EMOBON_NRMCB_Wa_1,,source_mat_id should match ^EMOBON_NRMCB_Wa_210621_200um_1$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
 source_mat_id error,ws,source_mat_id,2,EMOBON_NRMCB_Wa_2,,source_mat_id should match ^EMOBON_NRMCB_Wa_210621_200um_2$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
 source_mat_id error,ws,source_mat_id,3,EMOBON_NRMCB_Wa_3,,source_mat_id should match ^EMOBON_NRMCB_Wa_210621_200um_3$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
@@ -254,7 +253,762 @@ source_mat_id error,ws,source_mat_id,199,EMOBON_NRMCB_Wa_199,,source_mat_id shou
 source_mat_id error,ws,source_mat_id,200,EMOBON_NRMCB_Wa_200,,source_mat_id should match ^EMOBON_NRMCB_Wa_221206_NAum_3$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
 source_mat_id error,ws,source_mat_id,201,EMOBON_NRMCB_Wa_201,,source_mat_id should match ^EMOBON_NRMCB_Wa_221206_NAum_4$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
 source_mat_id error,ws,source_mat_id,202,EMOBON_NRMCB_Wa_202,,source_mat_id should match ^EMOBON_NRMCB_Wa_221206_NAum_blank_1$,/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
-membership violation,ss,comm_samp,116,,,"comm_samp must be in ['micro', 'meio', 'macro', 'blank']",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,1,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,2,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,3,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,4,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,5,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,6,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,7,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,8,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,9,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,10,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,11,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,12,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,13,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,14,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,15,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,16,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,17,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,18,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,19,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,20,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,21,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,22,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,23,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,24,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,25,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,26,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,27,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,28,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,29,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,30,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,31,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,32,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,33,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,34,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,35,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,36,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,37,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,38,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,39,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,40,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,41,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,42,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,43,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,44,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,45,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,46,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,47,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,48,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,49,marine sediment metagenome,,"scientific_name should be marine sediment metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ss,scientific_name,50,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,1,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,2,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,3,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,4,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,5,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,6,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,7,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,8,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,9,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,10,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,11,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,12,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,13,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,14,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,15,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,16,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,17,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,18,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,19,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,20,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,21,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,22,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,23,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,24,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,25,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,26,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,27,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,28,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,29,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,30,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,31,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,32,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,33,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,34,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,35,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,36,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,37,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,38,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,39,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,40,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,41,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,42,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,43,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,44,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,45,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,46,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,47,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,48,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,49,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,50,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,51,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,52,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,53,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,54,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,55,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,56,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,57,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,58,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,59,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,60,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,61,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,62,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,63,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,64,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,65,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,66,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,67,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,68,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,69,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,70,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,71,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,72,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,73,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,74,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,75,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,76,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,77,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,78,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,79,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,80,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,81,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,82,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,83,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,84,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,85,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,86,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,87,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,88,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,89,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,90,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,91,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,92,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,93,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,94,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,95,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,96,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,97,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,98,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,99,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,100,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,101,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,102,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,103,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,104,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,105,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,106,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,107,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,108,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,109,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,110,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,111,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,112,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,113,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,114,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,115,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,116,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,117,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,118,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,119,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,120,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,121,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,122,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,123,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,124,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,125,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,126,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,127,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,128,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,129,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,130,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,131,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,132,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,133,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,134,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,135,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,136,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,137,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,138,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,139,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,140,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,141,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,142,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,143,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,144,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,145,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,146,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,147,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,148,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,149,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,150,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,151,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,152,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,153,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,154,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,155,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,156,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,157,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,158,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,159,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,160,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,161,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,162,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,163,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,164,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,165,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,166,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,167,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,168,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,169,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,170,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,171,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,172,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,173,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,174,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,175,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,176,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,177,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,178,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,179,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,180,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,181,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,182,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,183,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,184,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,185,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,186,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,187,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,188,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,189,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,190,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,191,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,192,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,193,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,194,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,195,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,196,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,197,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,198,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,199,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,200,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,201,marine plankton metagenome,,"scientific_name should be marine plankton metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
+scientific name error,ws,scientific_name,202,metagenome,,"scientific_name should be metagenome)
+
+   ",/github/workspace/logsheets/filtered/water_sampling.csv,XSDString,False
 datatype mismatch,so,contact_orcid,1,0000-0002-9876-4601,https://orcid.org/0000-0002-9876-4601,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,True
 datatype mismatch,so,loc_broad_ocean_mrgid,1,4279,http://marineregions.org/mrgid/4279,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_loc_mrgid,1,3558,http://marineregions.org/mrgid/3558,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
@@ -283,7 +1037,6 @@ missing value,ss,ENA_accession_number_sample,41,,,,/github/workspace/logsheets/f
 missing value,ss,ENA_accession_number_sample,42,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
 missing value,ss,ENA_accession_number_sample,46,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
 missing value,ss,ENA_accession_number_sample,47,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
-missing value,ss,ENA_accession_number_sample,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
 datatype mismatch,ss,arr_date_hq,1,2021-10-20 00:00:00,2021-10-20,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,arr_date_hq,2,2021-10-20 00:00:00,2021-10-20,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,arr_date_hq,5,2021-10-20 00:00:00,2021-10-20,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
@@ -306,7 +1059,6 @@ datatype mismatch,ss,arr_date_hq,41,2023-06-28 00:00:00,2023-06-28,,/github/work
 datatype mismatch,ss,arr_date_hq,42,2023-06-28 00:00:00,2023-06-28,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,arr_date_hq,46,2023-06-28 00:00:00,2023-06-28,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,arr_date_hq,47,2023-06-28 00:00:00,2023-06-28,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-missing value,ss,arr_date_hq,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,arr_date_seq,1,2021-11-24 00:00:00,2021-11-24,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,arr_date_seq,2,2021-11-24 00:00:00,2021-11-24,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,arr_date_seq,5,2021-11-24 00:00:00,2021-11-24,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
@@ -329,7 +1081,6 @@ missing value,ss,arr_date_seq,41,,,,/github/workspace/logsheets/filtered/sedimen
 missing value,ss,arr_date_seq,42,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 missing value,ss,arr_date_seq,46,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 missing value,ss,arr_date_seq,47,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-missing value,ss,arr_date_seq,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,collection_date,1,2021-06-21 00:00:00,2021-06-21,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,collection_date,2,2021-06-21 00:00:00,2021-06-21,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,collection_date,3,2021-06-21 00:00:00,2021-06-21,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
@@ -380,10 +1131,6 @@ datatype mismatch,ss,collection_date,47,2022-12-06 00:00:00,2022-12-06,,/github/
 datatype mismatch,ss,collection_date,48,2022-12-06 00:00:00,2022-12-06,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,collection_date,49,2022-12-06 00:00:00,2022-12-06,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,collection_date,50,2022-12-06 00:00:00,2022-12-06,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-missing value,ss,collection_date,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-missing value,ss,depth,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,env_material,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,EMOBONList,False
-missing value,ss,investigation_type,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 datatype mismatch,ss,long_store,1,N,false,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
 datatype mismatch,ss,long_store,2,N,false,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
 datatype mismatch,ss,long_store,3,Y,true,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
@@ -434,15 +1181,6 @@ datatype mismatch,ss,long_store,47,N,false,,/github/workspace/logsheets/filtered
 datatype mismatch,ss,long_store,48,Y,true,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
 datatype mismatch,ss,long_store,49,Y,true,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
 datatype mismatch,ss,long_store,50,Y,true,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
-missing value,ss,long_store,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
-missing value,ss,samp_collect_device,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,samp_description,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,samp_size_mass,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,False
-missing value,ss,samp_mat_process,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,samp_mat_process_dev,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,samp_store_loc,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,samp_store_temp,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,sampl_person,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 datatype mismatch,ss,sampl_person_orcid,1,0000-0002-2475-1787,https://orcid.org/0000-0002-2475-1787,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
 datatype mismatch,ss,sampl_person_orcid,2,0000-0002-2475-1787,https://orcid.org/0000-0002-2475-1787,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
 datatype mismatch,ss,sampl_person_orcid,3,0000-0002-2475-1787,https://orcid.org/0000-0002-2475-1787,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
@@ -488,7 +1226,6 @@ datatype mismatch,ss,sampl_person_orcid,47,0000-0002-2475-1787,https://orcid.org
 datatype mismatch,ss,sampl_person_orcid,48,0000-0002-2475-1787,https://orcid.org/0000-0002-2475-1787,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
 datatype mismatch,ss,sampl_person_orcid,49,0000-0002-2475-1787,https://orcid.org/0000-0002-2475-1787,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
 datatype mismatch,ss,sampl_person_orcid,50,0000-0002-2475-1787,https://orcid.org/0000-0002-2475-1787,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
-missing value,ss,sampling_event,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 datatype mismatch,ss,ship_date,1,2021-10-18 00:00:00,2021-10-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date,2,2021-10-18 00:00:00,2021-10-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date,5,2021-10-18 00:00:00,2021-10-18,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
@@ -511,7 +1248,6 @@ datatype mismatch,ss,ship_date,41,2023-06-26 00:00:00,2023-06-26,,/github/worksp
 datatype mismatch,ss,ship_date,42,2023-06-26 00:00:00,2023-06-26,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date,46,2023-06-26 00:00:00,2023-06-26,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date,47,2023-06-26 00:00:00,2023-06-26,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-missing value,ss,ship_date,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,1,2021-11-24 00:00:00,2021-11-24,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,2,2021-11-24 00:00:00,2021-11-24,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,ship_date_seq,5,2021-11-24 00:00:00,2021-11-24,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
@@ -534,10 +1270,6 @@ missing value,ss,ship_date_seq,41,,,,/github/workspace/logsheets/filtered/sedime
 missing value,ss,ship_date_seq,42,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 missing value,ss,ship_date_seq,46,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 missing value,ss,ship_date_seq,47,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-missing value,ss,ship_date_seq,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-missing value,ss,size_frac_low,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,False
-missing value,ss,size_frac_up,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,False
-missing value,ss,store_person,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 datatype mismatch,ss,store_person_orcid,1,0000-0002-9876-4601,https://orcid.org/0000-0002-9876-4601,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
 datatype mismatch,ss,store_person_orcid,2,0000-0002-9876-4601,https://orcid.org/0000-0002-9876-4601,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
 datatype mismatch,ss,store_person_orcid,3,0000-0002-9876-4601,https://orcid.org/0000-0002-9876-4601,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
@@ -588,7 +1320,6 @@ datatype mismatch,ss,store_person_orcid,47,0000-0002-9876-4601,https://orcid.org
 datatype mismatch,ss,store_person_orcid,48,0000-0002-9876-4601,https://orcid.org/0000-0002-9876-4601,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
 datatype mismatch,ss,store_person_orcid,49,0000-0002-9876-4601,https://orcid.org/0000-0002-9876-4601,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
 datatype mismatch,ss,store_person_orcid,50,0000-0002-9876-4601,https://orcid.org/0000-0002-9876-4601,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,True
-missing value,ss,store_temp_hq,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDFloat,False
 datatype mismatch,ss,tax_id,1,412755,https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
 datatype mismatch,ss,tax_id,2,412755,https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
 datatype mismatch,ss,tax_id,3,412755,https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
@@ -639,7 +1370,6 @@ datatype mismatch,ss,tax_id,47,412755,https://www.ncbi.nlm.nih.gov/taxonomy/brow
 datatype mismatch,ss,tax_id,48,412755,https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
 datatype mismatch,ss,tax_id,49,412755,https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=412755,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
 datatype mismatch,ss,tax_id,50,256318,https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=256318,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
-missing value,ss,tax_id,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDAnyURI,False
 datatype mismatch,ss,failure,1,F,false,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
 datatype mismatch,ss,failure,2,F,false,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
 datatype mismatch,ss,failure,6,F,false,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
@@ -661,10 +1391,6 @@ missing value,ss,failure,41,,,,/github/workspace/logsheets/filtered/sediment_sam
 missing value,ss,failure,42,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
 missing value,ss,failure,46,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
 missing value,ss,failure,47,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
-missing value,ss,failure,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDBoolean,False
-missing value,ss,scientific_name,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,comm_samp,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,source_mat_id_orig,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 datatype mismatch,ss,samp_store_date,1,2021-06-21 00:00:00,2021-06-21,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,samp_store_date,2,2021-06-21 00:00:00,2021-06-21,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,samp_store_date,3,2021-06-21 00:00:00,2021-06-21,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
@@ -715,8 +1441,6 @@ datatype mismatch,ss,samp_store_date,47,2022-12-06 00:00:00,2022-12-06,,/github/
 datatype mismatch,ss,samp_store_date,48,2022-12-06 00:00:00,2022-12-06,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,samp_store_date,49,2022-12-06 00:00:00,2022-12-06,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
 datatype mismatch,ss,samp_store_date,50,2022-12-06 00:00:00,2022-12-06,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-missing value,ss,samp_store_date,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDDate,False
-missing value,ss,replicate,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 missing value,ss,failure_comment,21,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 missing value,ss,failure_comment,22,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 missing value,ss,failure_comment,26,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
@@ -729,315 +1453,338 @@ missing value,ss,failure_comment,41,,,,/github/workspace/logsheets/filtered/sedi
 missing value,ss,failure_comment,42,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 missing value,ss,failure_comment,46,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
 missing value,ss,failure_comment,47,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-missing value,ss,failure_comment,116,,,,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,False
-datatype mismatch,wm,ammonium,443,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,444,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,445,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,446,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,448,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,449,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,450,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,451,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,453,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,454,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,455,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,456,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,458,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,459,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,460,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,461,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,463,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,464,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,465,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,466,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,468,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,469,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,470,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,471,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,473,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,474,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,475,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,476,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,478,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,479,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,480,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,481,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,483,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,484,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,485,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,486,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,488,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,489,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,490,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,491,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,493,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,494,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,495,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,496,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,498,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,499,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,500,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,ammonium,501,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,111,"0,76",0.76,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,443,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,444,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,445,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,446,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,448,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,449,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,450,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,451,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,453,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,454,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,455,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,456,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,458,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,459,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,460,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,461,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,463,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,464,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,465,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,466,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,468,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,469,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,470,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,471,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,473,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,474,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,475,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,476,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,478,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,479,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,480,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,481,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,483,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,484,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,485,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,486,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,488,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,489,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,490,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,491,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,493,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,494,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,495,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,496,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,498,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,499,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,500,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,chlorophyll,501,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,123,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,124,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,125,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,126,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,128,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,129,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,130,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,131,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,133,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,134,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,135,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,136,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,138,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,139,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,140,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,141,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,443,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,444,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,445,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,446,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,448,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,449,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,450,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,451,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,453,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,454,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,455,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,456,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,458,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,459,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,460,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,461,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,463,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,464,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,465,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,466,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,468,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,469,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,470,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,471,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,473,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,474,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,475,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,476,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,478,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,479,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,480,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,481,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,483,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,484,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,485,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,486,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,488,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,489,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,490,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,491,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,493,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,494,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,495,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,496,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,498,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,499,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,500,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrate,501,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,443,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,444,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,445,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,446,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,448,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,449,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,450,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,451,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,453,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,454,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,455,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,456,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,458,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,459,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,460,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,461,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,463,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,464,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,465,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,466,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,468,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,469,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,470,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,471,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,473,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,474,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,475,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,476,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,478,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,479,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,480,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,481,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,483,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,484,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,485,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,486,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,488,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,489,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,490,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,491,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,493,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,494,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,495,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,496,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,498,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,499,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,500,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,nitrite,501,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,443,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,444,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,445,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,446,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,448,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,449,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,450,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,451,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,453,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,454,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,455,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,456,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,458,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,459,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,460,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,461,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,463,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,464,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,465,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,466,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,468,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,469,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,470,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,471,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,473,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,474,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,475,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,476,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,478,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,479,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,480,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,481,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,483,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,484,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,485,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,486,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,488,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,489,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,490,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,491,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,493,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,494,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,495,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,496,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,498,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,499,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,500,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,phosphate,501,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,sea_subsurf_temp,79,"16,7041",16.7041,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,False
-datatype mismatch,wm,sea_subsurf_temp,80,"16,7041",16.7041,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,False
-datatype mismatch,wm,sea_subsurf_temp,81,"16,7041",16.7041,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,False
-datatype mismatch,wm,silicate,443,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,444,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,445,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,446,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,448,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,449,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,450,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,451,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,453,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,454,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,455,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,456,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,458,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,459,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,460,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,461,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,463,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,464,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,465,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,466,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,468,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,469,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,470,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,471,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,473,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,474,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,475,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,476,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,478,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,479,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,480,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,481,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,483,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,484,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,485,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,486,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,488,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,489,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,490,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,491,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,493,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,494,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,495,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,496,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,498,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,499,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,500,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
-datatype mismatch,wm,silicate,501,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDFloat,True
+datatype mismatch,wm,chlorophyll,111,"0,76",0.76,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,123,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,124,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,125,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,126,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,128,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,129,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,130,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,131,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,133,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,134,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,135,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,136,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,138,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,139,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,140,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,141,<0.01,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,443,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,444,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,445,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,446,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,448,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,449,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,450,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,451,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,453,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,454,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,455,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,456,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,458,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,459,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,460,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,461,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,463,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,464,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,465,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,466,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,468,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,469,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,470,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,471,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,473,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,474,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,475,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,476,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,478,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,479,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,480,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,481,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,483,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,484,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,485,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,486,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,488,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,489,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,490,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,491,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,493,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,494,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,495,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,496,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,498,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,499,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,500,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrate,501,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,443,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,444,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,445,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,446,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,448,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,449,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,450,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,451,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,453,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,454,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,455,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,456,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,458,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,459,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,460,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,461,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,463,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,464,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,465,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,466,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,468,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,469,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,470,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,471,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,473,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,474,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,475,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,476,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,478,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,479,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,480,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,481,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,483,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,484,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,485,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,486,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,488,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,489,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,490,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,491,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,493,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,494,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,495,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,496,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,498,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,499,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,500,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,nitrite,501,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,443,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,444,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,445,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,446,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,448,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,449,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,450,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,451,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,453,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,454,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,455,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,456,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,458,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,459,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,460,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,461,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,463,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,464,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,465,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,466,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,468,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,469,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,470,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,471,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,473,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,474,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,475,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,476,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,478,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,479,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,480,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,481,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,483,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,484,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,485,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,486,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,488,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,489,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,490,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,491,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,493,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,494,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,495,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,496,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,498,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,499,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,500,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,phosphate,501,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+missing value,wm,sea_subsurf_salinity,503,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,504,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,505,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,506,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,507,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,508,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,509,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,510,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,511,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,512,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,513,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,514,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,515,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,516,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,517,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,518,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,519,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,520,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,521,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity,522,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_salinity_method,503,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,504,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,505,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,506,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,507,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,508,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,509,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,510,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,511,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,512,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,513,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,514,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,515,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,516,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,517,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,518,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,519,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,520,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,521,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_salinity_method,522,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+datatype mismatch,wm,sea_subsurf_temp,79,"16,7041",16.7041,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+datatype mismatch,wm,sea_subsurf_temp,80,"16,7041",16.7041,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+datatype mismatch,wm,sea_subsurf_temp,81,"16,7041",16.7041,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,503,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,504,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,505,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,506,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,507,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,508,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,509,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,510,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,511,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,512,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,513,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,514,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,515,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,516,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,517,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,518,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,519,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,520,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,521,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp,522,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_subsurf_temp_method,503,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,504,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,505,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,506,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,507,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,508,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,509,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,510,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,511,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,512,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,513,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,514,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,515,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,516,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,517,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,518,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,519,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,520,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,521,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_subsurf_temp_method,522,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp,503,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,504,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,505,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,506,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,507,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,508,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,509,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,510,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,511,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,512,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,513,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,514,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,515,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,516,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,517,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,518,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,519,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,520,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,521,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp,522,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,False
+missing value,wm,sea_surf_temp_method,503,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,504,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,505,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,506,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,507,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,508,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,509,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,510,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,511,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,512,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,513,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,514,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,515,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,516,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,517,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,518,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,519,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,520,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,521,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,sea_surf_temp_method,522,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+datatype mismatch,wm,silicate,443,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,444,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,445,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,446,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,448,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,449,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,450,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,451,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,453,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,454,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,455,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,456,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,458,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,459,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,460,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,461,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,463,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,464,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,465,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,466,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,468,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,469,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,470,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,471,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,473,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,474,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,475,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,476,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,478,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,479,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,480,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,481,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,483,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,484,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,485,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,486,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,488,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,489,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,490,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,491,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,493,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,494,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,495,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,496,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,498,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,499,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,500,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
+datatype mismatch,wm,silicate,501,expected later,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDDouble,True
 missing value,wm,source_mat_id,443,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
 missing value,wm,source_mat_id,444,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
 missing value,wm,source_mat_id,445,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
@@ -1098,6 +1845,26 @@ missing value,wm,source_mat_id,499,,,,/github/workspace/logsheets/filtered/water
 missing value,wm,source_mat_id,500,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
 missing value,wm,source_mat_id,501,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
 missing value,wm,source_mat_id,502,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,503,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,504,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,505,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,506,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,507,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,508,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,509,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,510,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,511,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,512,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,513,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,514,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,515,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,516,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,517,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,518,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,519,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,520,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,521,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
+missing value,wm,source_mat_id,522,,,,/github/workspace/logsheets/filtered/water_measured.csv,XSDString,False
 datatype mismatch,wo,contact_orcid,1,0000-0002-9876-4601,https://orcid.org/0000-0002-9876-4601,,/github/workspace/logsheets/filtered/water_observatory.csv,XSDAnyURI,True
 datatype mismatch,wo,loc_broad_ocean_mrgid,1,4279,http://marineregions.org/mrgid/4279,,/github/workspace/logsheets/filtered/water_observatory.csv,XSDAnyURI,False
 datatype mismatch,wo,loc_loc_mrgid,1,3558,http://marineregions.org/mrgid/3558,,/github/workspace/logsheets/filtered/water_observatory.csv,XSDAnyURI,False
