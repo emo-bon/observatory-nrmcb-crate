@@ -18,10 +18,6 @@
 
 
 
-
-
-
-
 @base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/observation/EMOBON_NRMCB_So_39> . 
 <#diss_oxygen>
     a sosa:Observation, schema:Observation , csvw:Cell ;

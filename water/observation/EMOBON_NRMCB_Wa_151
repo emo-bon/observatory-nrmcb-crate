@@ -18,10 +18,6 @@
 
 
 
-
-
-
-
 @base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/observation/EMOBON_NRMCB_Wa_151> . 
 <#ammonium>
     a sosa:Observation, schema:Observation , csvw:Cell ;
@@ -135,6 +131,7 @@
     schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_151> ; 
 . 
+    ['phytoplankton: 1.88E+05', 'diatoms: 6.26E+04', 'dinoflagellates: 2.44E+04', 'coccolitrophores: 0.00E+00', 'other flagellates: 1.01E+05']
 
 <#phytoplankton>
     a sosa:Observation, schema:Observation , csvw:Cell ;
@@ -149,6 +146,8 @@
     ] ; 
     
     sosa:hasResult [
+        phytoplankton
+        1.88E+05
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '188000.0'^^xsd:double ;
@@ -171,6 +170,8 @@
     ] ; 
     
     sosa:hasResult [
+        diatoms
+        6.26E+04
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '62600.0'^^xsd:double ;
@@ -193,6 +194,8 @@
     ] ; 
     
     sosa:hasResult [
+        dinoflagellates
+        2.44E+04
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '24400.0'^^xsd:double ;
@@ -215,6 +218,8 @@
     ] ; 
     
     sosa:hasResult [
+        coccolitrophores
+        0.00E+00
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '0.0'^^xsd:double ;
@@ -237,6 +242,8 @@
     ] ; 
     
     sosa:hasResult [
+        other flagellates
+        1.01E+05
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '101000.0'^^xsd:double ;
