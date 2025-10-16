@@ -22,4 +22,4 @@
 
 
 
-@base http://data.emobon.embrc.eu/observatory--crate//observation/<EMOBON_NRMCB_Wa_22> . 
+@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/observation/EMOBON_NRMCB_Wa_22> . 
