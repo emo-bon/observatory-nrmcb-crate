@@ -17,4 +17,9 @@
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
 
 
-@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/observation/EMOBON_NRMCB_So_10> . 
+
+
+
+
+
+@base http://data.emobon.embrc.eu/observatory--crate//observation/<EMOBON_NRMCB_So_10> . 

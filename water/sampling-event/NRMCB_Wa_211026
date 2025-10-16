@@ -15,11 +15,16 @@
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
-@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/sampling-event/NRMCB_Wa_211026> . <>
+
+
+
+
+
+@base http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/sampling-event/<NRMCB_Wa_211026> . <>
     a sosa:Sampling, prov:Activity ;  
     
     dct:type "sampling"^^xsd:string ;
-    prov:startedAtTime '2021-10-26'^^xsd:date ; 
+    prov:endedAtTime '2021-10-26'^^xsd:date ;
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Raffaella Casotti'^^xsd:string ;
@@ -54,5 +59,5 @@
     emobon-sampling:taxonomicName 'marine plankton metagenome'^^xsd:string ;
     emobon-sampling:bioCommunity ''^^xsd:string ;
     
-    emobon-sampling:linkedToObservatory </observatory-nrmcb-crate/water/observatory/NRMCB>  ; 
+    emobon-sampling:linkedToObservatory /observatory-nrmcb-crate/water/observatory/<nrmcb> ; 
 .

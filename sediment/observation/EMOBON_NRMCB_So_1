@@ -17,8 +17,13 @@
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
 
 
-@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/observation/EMOBON_NRMCB_So_1> . 
-<#diss_oxygen>
+
+
+
+
+
+@base http://data.emobon.embrc.eu/observatory--crate//observation/<EMOBON_NRMCB_So_1> . 
+#<diss_oxygen>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -32,9 +37,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ;
     ] ;
     schema:measurementTechnique 'SBE43'^^xsd:string ;
-    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_1> ; 
+    sosa:hasFeatureOfInterest /observatory--crate//sample/<EMOBON_NRMCB_So_1> ; 
 .
-<#pigments>
+#<pigments>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -47,9 +52,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ;
     ] ;
     schema:measurementTechnique 'this is not pigments but fluorescense. chl Turner Design Cyclops 7C)'^^xsd:string ;
-    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_1> ; 
+    sosa:hasFeatureOfInterest /observatory--crate//sample/<EMOBON_NRMCB_So_1> ; 
 .
-<#sea_surf_salinity>
+#<sea_surf_salinity>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -63,9 +68,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ;
     ] ;
     schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
-    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_1> ; 
+    sosa:hasFeatureOfInterest /observatory--crate//sample/<EMOBON_NRMCB_So_1> ; 
 .
-<#sea_surf_temp>
+#<sea_surf_temp>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -79,9 +84,9 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
     ] ;
     schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
-    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_1> ; 
+    sosa:hasFeatureOfInterest /observatory--crate//sample/<EMOBON_NRMCB_So_1> ; 
 .
-<#sediment_temp>
+#<sediment_temp>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
         a sosa:ObservableProperty ; 
@@ -95,5 +100,5 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ;
     ] ;
     schema:measurementTechnique 'CTD SBE 19plusV2'^^xsd:string ;
-    sosa:hasFeatureOfInterest </observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_1> ; 
+    sosa:hasFeatureOfInterest /observatory--crate//sample/<EMOBON_NRMCB_So_1> ; 
 .

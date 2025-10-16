@@ -18,11 +18,16 @@
 
 
 
-@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/sample/EMOBON_NRMCB_So_8> . 
+
+
+
+
+
+@base http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/sample/<EMOBON_NRMCB_So_8> . 
 <> 
     a sosa:Sample, prov:Entity ;
     
-    sosa:isResultOf </observatory-nrmcb-crate/sediment/sampling-event/NRMCB_So_210831> ;
+    sosa:isResultOf /observatory-nrmcb-crate/sediment/sampling-event/<NRMCB_So_210831> ;
     
     emobon-sampling:origEmobonId 'EMOBON_NRMCB_So_210831_micro_3'^^xsd:string ; 
     
