@@ -129,7 +129,6 @@
     schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 . 
-    ['phytoplankton: 1.13E+07', 'diatoms: 6.12E+06', 'dinoflagellates: 3.88E+05', 'coccolitrophores: 4.43E+04', 'other flagellates: 4.76E+06']
 
 <#phytoplankton>
     a sosa:Observation, schema:Observation , csvw:Cell ;
@@ -144,8 +143,6 @@
     ] ; 
     
     sosa:hasResult [
-        phytoplankton
-        1.13E+07
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '11300000.0'^^xsd:double ;
@@ -168,8 +165,6 @@
     ] ; 
     
     sosa:hasResult [
-        diatoms
-        6.12E+06
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '6120000.0'^^xsd:double ;
@@ -192,8 +187,6 @@
     ] ; 
     
     sosa:hasResult [
-        dinoflagellates
-        3.88E+05
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '388000.0'^^xsd:double ;
@@ -216,8 +209,6 @@
     ] ; 
     
     sosa:hasResult [
-        coccolitrophores
-        4.43E+04
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '44300.0'^^xsd:double ;
@@ -240,8 +231,6 @@
     ] ; 
     
     sosa:hasResult [
-        other flagellates
-        4.76E+06
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '4760000.0'^^xsd:double ;
@@ -326,22 +315,31 @@
     ] ;
     schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
-.
-<#pigments>
-    a sosa:Observation, schema:Observation , csvw:Cell ;
-    sosa:observedProperty [
-        a sosa:ObservableProperty ; 
-        dct:identifier <http://vocab.nerc.ac.uk/collection/C67/current/PIGX/> ;
-        rdfs:label 'pigments'^^xsd:string ; 
-    ] ;
+. 
 
+<#Fluorescence>
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_pigments> ;
+    csvw:row <> ;
+    
+    sosa:observedProperty [
+        a sosa:ObservableProperty ;
+        dct:identifier <http://vocab.nerc.ac.uk/collection/C67/current/PIGX/> ;
+        rdfs:label 'pigments'^^xsd:string ;
+        dct:type 'Fluorescence'^^xsd:string ;
+    ] ; 
+    
     sosa:hasResult [
-        a sosa:Result , qudt:QuantityValue ;
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
+        a sosa:Result , qudt:QuantityValue ; 
+        
+        qudt:numericValue '0.7396'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ;
     ] ;
     schema:measurementTechnique 'this is not pigments but fluorescense. chl Turner Design Cyclops 7C)'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/> ; 
 .
+
+
 <#sea_subsurf_salinity>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
