@@ -115,7 +115,6 @@
     schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_164> ; 
 . 
-    ['phytoplankton: 7.82E+06', 'diatoms: 7.09E+06', 'dinoflagellates: 0.00E+00', 'coccolitrophores: 0.00E+00', 'other flagellates: 7.31E+05']
 
 <#phytoplankton>
     a sosa:Observation, schema:Observation , csvw:Cell ;
@@ -130,8 +129,6 @@
     ] ; 
     
     sosa:hasResult [
-        phytoplankton
-        7.82E+06
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '7820000.0'^^xsd:double ;
@@ -154,8 +151,6 @@
     ] ; 
     
     sosa:hasResult [
-        diatoms
-        7.09E+06
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '7090000.0'^^xsd:double ;
@@ -178,8 +173,6 @@
     ] ; 
     
     sosa:hasResult [
-        dinoflagellates
-        0.00E+00
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '0.0'^^xsd:double ;
@@ -202,8 +195,6 @@
     ] ; 
     
     sosa:hasResult [
-        coccolitrophores
-        0.00E+00
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '0.0'^^xsd:double ;
@@ -226,8 +217,6 @@
     ] ; 
     
     sosa:hasResult [
-        other flagellates
-        7.31E+05
         a sosa:Result , qudt:QuantityValue ; 
         
         qudt:numericValue '731000.0'^^xsd:double ;
@@ -267,37 +256,55 @@
     ] ;
     schema:measurementTechnique 'SB18'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_164> ; 
-.
-<#phaeopigments>
+. 
+
+<#total>
     a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_phaeopigments> ;
+    csvw:row <EMOBON_NRMCB_Wa_164> ;
+    
     sosa:observedProperty [
-        a sosa:ObservableProperty ; 
+        a sosa:ObservableProperty ;
         dct:identifier <http://vocab.nerc.ac.uk/collection/P09/current/PHTF/> ;
-        rdfs:label 'phaeopigments'^^xsd:string ; 
-    ] ;
-
+        rdfs:label 'phaeopigments'^^xsd:string ;
+        dct:type 'total'^^xsd:string ;
+    ] ; 
+    
     sosa:hasResult [
-        a sosa:Result , qudt:QuantityValue ;
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
+        a sosa:Result , qudt:QuantityValue ; 
+        
+        qudt:numericValue '2.56'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ;
     ] ;
     schema:measurementTechnique 'spectrofluorometry'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_164> ; 
 .
-<#phaeopigments>
+
+ 
+
+<#total>
     a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_phaeopigments> ;
+    csvw:row <EMOBON_NRMCB_Wa_164> ;
+    
     sosa:observedProperty [
-        a sosa:ObservableProperty ; 
+        a sosa:ObservableProperty ;
         dct:identifier <http://vocab.nerc.ac.uk/collection/P09/current/PHAS/> ;
-        rdfs:label 'phaeopigments'^^xsd:string ; 
-    ] ;
-
+        rdfs:label 'phaeopigments'^^xsd:string ;
+        dct:type 'total'^^xsd:string ;
+    ] ; 
+    
     sosa:hasResult [
-        a sosa:Result , qudt:QuantityValue ;
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
+        a sosa:Result , qudt:QuantityValue ; 
+        
+        qudt:numericValue '2.56'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ;
     ] ;
     schema:measurementTechnique 'spectrofluorometry'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_164> ; 
 .
+
+
 <#phosphate>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
@@ -313,22 +320,31 @@
     ] ;
     schema:measurementTechnique 'segmented continuous-flow autoanalyzer'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_164> ; 
-.
-<#pigments>
-    a sosa:Observation, schema:Observation , csvw:Cell ;
-    sosa:observedProperty [
-        a sosa:ObservableProperty ; 
-        dct:identifier <http://vocab.nerc.ac.uk/collection/C67/current/PIGX/> ;
-        rdfs:label 'pigments'^^xsd:string ; 
-    ] ;
+. 
 
+<#Fluorescence>
+    a sosa:Observation, schema:Observation , csvw:Cell ;
+    csvw:column <http://data.emobon.embrc.eu/measured_metadata_schema#col_pigments> ;
+    csvw:row <EMOBON_NRMCB_Wa_164> ;
+    
+    sosa:observedProperty [
+        a sosa:ObservableProperty ;
+        dct:identifier <http://vocab.nerc.ac.uk/collection/C67/current/PIGX/> ;
+        rdfs:label 'pigments'^^xsd:string ;
+        dct:type 'Fluorescence'^^xsd:string ;
+    ] ; 
+    
     sosa:hasResult [
-        a sosa:Result , qudt:QuantityValue ;
-        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
+        a sosa:Result , qudt:QuantityValue ; 
+        
+        qudt:numericValue '3.071'^^xsd:double ;
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ;
     ] ;
     schema:measurementTechnique 'this is not pigments but fluorescense. Turner Design Cyclops 7T'^^xsd:string ;
     sosa:hasFeatureOfInterest </observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_164> ; 
 .
+
+
 <#sea_subsurf_salinity>
     a sosa:Observation, schema:Observation , csvw:Cell ;
     sosa:observedProperty [
