@@ -143,8 +143,7 @@
     ] ; 
     
     sosa:hasResult [
-        a sosa:Result , qudt:QuantityValue ; 
-        
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '462000.0'^^xsd:double ;
         qudt:unit <https://data.emobon.embrc.eu/ns/unit_vocab#Cells_Per_Sampleunit> ;
     ] ;
@@ -165,8 +164,7 @@
     ] ; 
     
     sosa:hasResult [
-        a sosa:Result , qudt:QuantityValue ; 
-        
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '32900.0'^^xsd:double ;
         qudt:unit <https://data.emobon.embrc.eu/ns/unit_vocab#Cells_Per_Sampleunit> ;
     ] ;
@@ -187,8 +185,7 @@
     ] ; 
     
     sosa:hasResult [
-        a sosa:Result , qudt:QuantityValue ; 
-        
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '58000.0'^^xsd:double ;
         qudt:unit <https://data.emobon.embrc.eu/ns/unit_vocab#Cells_Per_Sampleunit> ;
     ] ;
@@ -209,8 +206,7 @@
     ] ; 
     
     sosa:hasResult [
-        a sosa:Result , qudt:QuantityValue ; 
-        
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '0.0'^^xsd:double ;
         qudt:unit <https://data.emobon.embrc.eu/ns/unit_vocab#Cells_Per_Sampleunit> ;
     ] ;
@@ -231,8 +227,7 @@
     ] ; 
     
     sosa:hasResult [
-        a sosa:Result , qudt:QuantityValue ; 
-        
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '372000.0'^^xsd:double ;
         qudt:unit <https://data.emobon.embrc.eu/ns/unit_vocab#Cells_Per_Sampleunit> ;
     ] ;
@@ -330,8 +325,7 @@
     ] ; 
     
     sosa:hasResult [
-        a sosa:Result , qudt:QuantityValue ; 
-        
+        a sosa:Result , qudt:QuantityValue ;
         qudt:numericValue '0.153'^^xsd:double ;
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ;
     ] ;
