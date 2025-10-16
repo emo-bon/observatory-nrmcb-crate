@@ -16,11 +16,6 @@
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
 
-
-
-
-
-
 @base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_191> .
 <> 
     a sosa:Sample, prov:Entity ;
