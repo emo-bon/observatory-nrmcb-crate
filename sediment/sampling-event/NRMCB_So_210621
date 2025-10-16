@@ -22,7 +22,7 @@
 
 
 
-@base http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/sampling-event/<NRMCB_So_210621> . 
+@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/sampling-event/NRMCB_So_210621> . 
 <> 
     a sosa:Sampling, prov:Activity ;  
     
@@ -63,5 +63,5 @@
     emobon-sampling:taxonomicName 'marine sediment metagenome'^^xsd:string ;
     emobon-sampling:bioCommunity 'micro'^^xsd:string ;
     
-    emobon-sampling:linkedToObservatory /observatory-nrmcb-crate/sediment/observatory/<nrmcb> ; 
+    emobon-sampling:linkedToObservatory </observatory-nrmcb-crate/sediment/observatory/NRMCB> ; 
 .
