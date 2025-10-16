@@ -15,11 +15,17 @@
 @prefix emobon-sampling: <https://data.emobon.embrc.eu/ns/sampling#> .
 @prefix core_vocab: <https://data.emobon.embrc.eu/ns/core_vocab#> .
 @prefix csvw: <http://www.w3.org/ns/csvw#>.
-@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/sample/EMOBON_NRMCB_Wa_79> .
+
+
+
+
+
+
+@base http://data.emobon.embrc.eu/observatory-nrmcb-crate/water/sample/<EMOBON_NRMCB_Wa_79> .
 <> 
     a sosa:Sample, prov:Entity ;
     
-    sosa:isResultOf </observatory-nrmcb-crate/water/sampling-event/NRMCB_Wa_211221> ;
+    sosa:isResultOf /observatory-nrmcb-crate/water/sampling-event/<NRMCB_Wa_211221> ;
     
     emobon-sampling:origEmobonId 'EMOBON_NRMCBWa_211221_200um_2'^^xsd:string ; 
     

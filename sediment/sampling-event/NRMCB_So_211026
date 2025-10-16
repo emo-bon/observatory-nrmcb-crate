@@ -18,12 +18,16 @@
 
 
 
-@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/sampling-event/NRMCB_So_211026> . 
+
+
+
+
+@base http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/sampling-event/<NRMCB_So_211026> . 
 <> 
     a sosa:Sampling, prov:Activity ;  
     
     dct:type "sampling"^^xsd:string ;
-    prov:startedAtTime '2021-10-26'^^xsd:date ; 
+    prov:endedAtTime '2021-10-26'^^xsd:date ;
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Marina Montresor'^^xsd:string ;
@@ -59,5 +63,5 @@
     emobon-sampling:taxonomicName 'marine sediment metagenome'^^xsd:string ;
     emobon-sampling:bioCommunity 'micro'^^xsd:string ;
     
-    emobon-sampling:linkedToObservatory </observatory-nrmcb-crate/sediment/observatory/NRMCB>  ; 
+    emobon-sampling:linkedToObservatory /observatory-nrmcb-crate/sediment/observatory/<nrmcb> ; 
 .

@@ -18,12 +18,16 @@
 
 
 
-@base <http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/sampling-event/NRMCB_So_220311> . 
+
+
+
+
+@base http://data.emobon.embrc.eu/observatory-nrmcb-crate/sediment/sampling-event/<NRMCB_So_220311> . 
 <> 
     a sosa:Sampling, prov:Activity ;  
     
     dct:type "sampling"^^xsd:string ;
-    prov:startedAtTime '2022-03-11'^^xsd:date ; 
+    prov:endedAtTime '2022-03-11'^^xsd:date ;
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Ferdinando Tramontano'^^xsd:string ;
@@ -58,5 +62,5 @@
     emobon-sampling:taxonomicName 'marine sediment metagenome'^^xsd:string ;
     emobon-sampling:bioCommunity 'micro'^^xsd:string ;
     
-    emobon-sampling:linkedToObservatory </observatory-nrmcb-crate/sediment/observatory/NRMCB>  ; 
+    emobon-sampling:linkedToObservatory /observatory-nrmcb-crate/sediment/observatory/<nrmcb> ; 
 .
